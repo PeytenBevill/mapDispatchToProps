@@ -1,5 +1,5 @@
 import React from 'react'
-import PieChart from 'react-minimal-pie-chart';
+// import PieChart from 'react-minimal-pie-chart';
 
 const Chart = (props) => {
     // create variable "over" with all the cars whose horsepower is >= 200
@@ -7,7 +7,7 @@ const Chart = (props) => {
 
     return (
         <div>
-            <PieChart style={{ width: '200px' }}
+            {/* <PieChart style={{ width: '200px' }}
                 data={[
                     { title: 'Over', value: 10, color: '#C13C37' },
                     { title: 'Under', value: 15, color: '#E38627' },
@@ -17,7 +17,7 @@ const Chart = (props) => {
                     fill: 'white',
                     fontSize: 'small'
                 }}
-            />
+            /> */}
             <Legend />
         </div>
     )
